@@ -1,10 +1,11 @@
 <template>
     <div class="to_do">
         <h1>{{ msg }}</h1>
-        <input type="text"/>
+        <input type="text" placeholder="Whatchyah wanna do"/>
+        <input type="submit" value="New Todo">
         <h2>Your To Do's</h2>
     </div>
-</template>
+</template> 
 
 <script>
 export default {
