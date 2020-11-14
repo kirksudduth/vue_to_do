@@ -1,3 +1,11 @@
 {
-    "python.pythonPath": "/usr/bin/python3"
+    "python.pythonPath": "/usr/bin/python3",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "vue_to_do",
+            "database": "db.sqlite3"
+        }
+    ]
 }
