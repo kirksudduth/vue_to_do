@@ -11,6 +11,7 @@
 </template> 
 
 <script>
+// import create_todo from "../views/todos/create.py"
 export default {
     name: 'ToDo',
     data () {
@@ -18,6 +19,9 @@ export default {
             msg: 'This is VueToDo',
             todo: "",
         }
-    }
+    },
+    // methods: {
+    //     create_todo
+    // },
 }
 </script>

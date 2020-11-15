@@ -5,3 +5,4 @@ from ...models.todo import ToDo
 def create_todo(request):
     if request.method == "POST":
         form_data = request.POST
+        console.log("Way to go!!")
