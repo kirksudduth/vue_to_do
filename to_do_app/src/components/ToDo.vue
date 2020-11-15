@@ -2,10 +2,11 @@
     <div class="to_do">
         <h1>{{ msg }}</h1>
         <form method="POST">
-        <input type="text" placeholder="Whatchyah wanna do"/>
+        <input v-model="todo" placeholder="Whatchyah wanna do"/>
         <input type="submit" value="New Todo">
         </form>
         <h2>Your To Do's</h2>
+        <p>This todo is: {{ todo }}</p>
     </div>
 </template> 
 
@@ -14,7 +15,8 @@ export default {
     name: 'ToDo',
     data () {
         return {
-            msg: 'This is VueToDo'
+            msg: 'This is VueToDo',
+            todo: "",
         }
     }
 }
